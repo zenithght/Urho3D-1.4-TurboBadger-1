@@ -10,6 +10,7 @@ Features
 * no unique graphics settings required
 * uses Urho3D's default UIBatch render process
 * delivers TurboBadger's batch data in its format, so it pumps data as fast as Turbo Badger can send them
+
 -----------------------------------------------------------------------------------
 
 -----------------------------------------------------------------------------------
@@ -45,7 +46,7 @@ Turbo Badger author and license information:
 -----------------------------------------------------------------------------------
 Turbo Badger - Fast UI toolkit for hardware accelerated games & applications.
 
-Author: Emil Segerås Web: http://fiffigt.com
+Author: Emil SegerÃ¥s Web: http://fiffigt.com
 
 Turbo Badger home: <https://github.com/fruxo/turbobadger>  
 License
