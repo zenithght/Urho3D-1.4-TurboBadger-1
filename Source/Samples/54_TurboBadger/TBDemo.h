@@ -230,11 +230,4 @@ class TBDemo
 public:
     static void Init();
     static void Destroy();
-
-protected:
-    TBDemo() {}
-    ~TBDemo() {}
-
-protected:
-    static TBDemo       *_pSingleton;
 };

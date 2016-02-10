@@ -1090,24 +1090,13 @@ const char *boy_names[] = {
 
 //=============================================================================
 //=============================================================================
-TBDemo* TBDemo::_pSingleton = NULL;
-
 void TBDemo::Destroy()
 {
-    if ( _pSingleton )
-    {
-        delete _pSingleton;
-        _pSingleton = NULL;
-    }
+	// nothing to destory, all that's allocated in the Init() func. are cleaned up by TB core.
 }
 
 void TBDemo::Init()
 {
-    if ( _pSingleton == NULL )
-    {
-        _pSingleton = new TBDemo();
-    }
-
     // Block new animations during Init.
 	TBAnimationBlocker anim_blocker;
 
